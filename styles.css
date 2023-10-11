@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #2F1893;
+    font-family: 'DM Sans';
+    padding: 2.5rem 12rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h4 {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+li {
+    font-size: 1.05rem;
+    color: #fff;
+}
+
+header button {
+    color: #fff;
+    border: none;
+    padding: .7rem 1.5rem;
+    background-color: #E93A7D;
+    border-radius: 20px;
+}
+
+/* main start here */
+main {
+    margin-top: 5rem;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.heading {
+    width: 35%;
+    color: #fff;
+}
+
+.heading .mainHeading {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    letter-spacing: 3px;
+}
+
+.heading .desc p {
+    font-size: 1.2rem;
+    line-height: 32px;
+}
+
+.login-container {
+    width: 40%;
+    height: 100%;
+    background-color: #fff;
+    padding: 2rem 2.85rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.login-container h2 {
+    color: #1E0E62;
+    font-size: 2.25rem;
+}
+
+.login-container input {
+    font-size: 1rem;
+    padding: .8rem 1.15rem;
+    border-radius: 25px;
+    border: 1px solid rgba(21, 20, 57, 0.40);
+}
+
+.checkbox-input {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-input input {
+    width: 20px;
+    height: 20px;
+    margin-right: 1rem;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.login-container button {
+    border-radius: 25px;
+    padding: .75rem 0;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #482BE7;
+}
+
+.Twitter-button {
+    width: 100%;
+    background-color: #1DA1F2;
+}
+
+.signin span {
+    color: #25DAC5;
+}
+
+.formHead {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formHead div {
+    width: 41%;
+    color: #EBEAED;
+}
+
+.formHead p {
+    font-size: 1.2rem;
+    color: rgba(21, 20, 57, 0.40);
+}
